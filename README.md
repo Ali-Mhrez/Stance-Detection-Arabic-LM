@@ -60,6 +60,7 @@ Our research yielded several key findings regarding the use of Arabic transforme
 ## Citation
 ```bash
 @article{amhrez-alm,
+author = {Mhrez, ali; Ramadan, Wassim; Abo Saleh, Naser},
 title = {Evaluating the Performance of Arabic Language Models on the Task of Stance Detection Towards Fake News},
 journal = {Journal of Homs Univeristy},
 Series = {Mechanical, Electrical and Information Engineering Sciences Series},
@@ -68,7 +69,6 @@ number = {5},
 pages = {83--106},
 year = {2024},
 url = {https://journal.homs-univ.edu.sy/index.php/Engineering/article/view/5120},
-author = {Mhrez, ali; Ramadan, Wassim; Abo Saleh, Naser},
 keywords = {stance  detection, fake news, Arabic language models, natural language processing},
 }
 ```
