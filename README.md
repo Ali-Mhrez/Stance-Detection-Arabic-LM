@@ -39,6 +39,12 @@ No Special preprocessing was conducted except tokenization using the default tok
 | [GIGA-BERT](https://aclanthology.org/2020.emnlp-main.382/) | 50K | MLM | MSA | - | 125M |
 | [ARABIC-ALBERT](https://github.com/KUIS-AI/Arabic-ALBERT) | 30K | MLM+SOP | Mostly MSA | - | 12M,18M,60M |
 
+## Hyperparameters
+
+| Sequence Length | Batch Size | Learning Rate | Warmup Ratio | Early Stopping | Loss | Optimizer |
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|
+| 512 | 32 | 2e-5 | 10% | 5 | Cross Entropy | Adam |
+
 ## Key Results
 
 Our research yielded several key findings regarding the use of Arabic transformers for stance detection:
