@@ -78,8 +78,9 @@ year = {2024},
 url = {https://journal.homs-univ.edu.sy/index.php/Engineering/article/view/5120},
 keywords = {stance  detection, fake news, Arabic language models, natural language processing},
 }
-
-@incollection{amhrez-mlm,
+```
+```bash
+@incollection{amhrez-calm,
 author = {Mhrez, ali; Ramadan, Wassim; Abo Saleh, Naser},
 title = {Stance Detection Toward Fake News Using Arabic Transformers},
 booktitle = {Stance Detection in Natural Language Texts Using Deep Learning Techniques},
