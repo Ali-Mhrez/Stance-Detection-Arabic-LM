@@ -2,6 +2,7 @@
 
 This repository contains the code for a research paper that explores the performance of all Arabic language models on the task of stance detection in the context of fake news. The task involves classifying the relationship between a news article's body text and its headline into one of four categories: agree, disagree, discuss, or unrelated. The fine-tuned models include ARBERT, ARABERT, ARAELECTRA, and others.
 
+This work corresponds to the 6th chapter of my PhD dissertation: [Stance Detection Toward Fake News Using Arabic Transformers](https://github.com/Ali-Mhrez/Dissertation/blob/main/dissertation.pdf), pages 85--92
 ## Goal and Background
 Despite the growing number of powerful transformer-based models for the Arabic language, their application to a critical task like fake news stance detection remains largely unexplored. Currently, there is a significant lack of research evaluating the performance of these models, such as AraBERT, ARBERT, and AraELECTRA, on this specific task. This absence of a clear benchmark hinders progress in the field and makes it difficult to understand the strengths and weaknesses of these models. Furthermore, there are no existing studies that systematically analyze the impact of various design and training characteristics on their effectiveness.
 
@@ -76,5 +77,17 @@ pages = {83--106},
 year = {2024},
 url = {https://journal.homs-univ.edu.sy/index.php/Engineering/article/view/5120},
 keywords = {stance  detection, fake news, Arabic language models, natural language processing},
+}
+
+@incollection{amhrez-mlm,
+author = {Mhrez, ali; Ramadan, Wassim; Abo Saleh, Naser},
+title = {Stance Detection Toward Fake News Using Arabic Transformers},
+booktitle = {Stance Detection in Natural Language Texts Using Deep Learning Techniques},
+publisher = {University of Homs},
+chapter = {6},
+pages = {85--92},
+year = {2024},
+url = {https://github.com/Ali-Mhrez/Dissertation},
+note = {This chapter is based on a dissertation submitted in partial fulfillment of the requirements for the degree of Doctor of Philosophy.}
 }
 ```
